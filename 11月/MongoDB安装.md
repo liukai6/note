@@ -4,3 +4,5 @@
 这个时候我们可以启动mongod.exe服务了
 `mongod.exe --dbpath "D:\data\db"`
 然后看下你创建的文件夹目录是否有了内容.记住要用管理员权限来运行
+接下来我们连接mongoDB启动mongo.exe服务
+`mongo.exe`
