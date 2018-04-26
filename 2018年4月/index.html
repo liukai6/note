@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试错误</title>
+</head>
+<body>
+	<div>错误机制</div>
+
+</body>
+	<script>
+		try {
+			function putout(){
+				console.log('没有错误');
+				return 0;
+			}
+			putout();
+			
+		} catch (error) {
+			console.log('错了');
+		} finally {
+			console.log('我会执行性');
+		}
+	</script>
+</html>
